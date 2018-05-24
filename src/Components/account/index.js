@@ -4,7 +4,10 @@ class Account extends Component {
     render(){
         return(
             <div>
-                Account
+               <h1>Set up Account </h1>
+               <input type="text" placeholder="email" />  
+               <button>Submit</button>
+               
             </div>
         )
     }
