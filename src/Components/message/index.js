@@ -4,7 +4,10 @@ import React, {Component}  from 'react'
     render(){
         return(
             <div>
-                Message
+                <h1>This is the message page, type in the text box below and hit send to start</h1>
+                <br />
+                <input type='textarea' placeholder='Write your message'/>
+                <button classname='msg-submit'>Send</button>
             </div>
         )
     }
