@@ -21,6 +21,9 @@ app.use(session({
 }));
 
 
+app.post('/api/sarah', (req, res)=>{
+    res.send("It's a me, Sarah")
+})
 
 const port = process.env.PORT || 8080;
 app.listen(port, ()=>{
