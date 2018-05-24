@@ -20,6 +20,9 @@ app.use(session({
     resave: false,
 }));
 
+app.get('/api/craig', (req, res) => {
+    res.send('Craig');
+})
 
 app.post('/api/sarah', (req, res)=>{
     res.send("It's a me, Sarah")
