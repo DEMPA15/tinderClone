@@ -20,6 +20,9 @@ app.use(session({
     resave: false,
 }));
 
+app.get('/api/craig', (req, res) => {
+    res.send('Craig');
+})
 
 
 const port = process.env.PORT || 8080;
